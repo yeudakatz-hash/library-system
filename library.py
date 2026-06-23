@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 
 # ========== DATA ==========
 books = books	=	{ "B001":	{"title":	"Harry	Potter",	"author":	"J.K.	Rowling",	"available":	True}, "B002":	{"title":	"The	Hobbit",	"author":	"J.R.R.	Tolkien",	"available":	True}, "B003":	{"title":	"1984",	"author":	"George	Orwell",	"available":	True}, "B004":	{"title":	"The	Little	Prince",	"author":	"Antoine	de	Saint",	"available":	True}, "B005":	{"title":	"Pride	and	Prejudice",	"author":	"Jane	Austen",	"available":	True}, }
-readers = {}
+readers = {{ "R001":	{"name":	"David",	"books_borrowed":	[]}, "R002":	{"name":	"Yael",	"books_borrowed":	[]}, "R003":	{"name":	"Noam",	"books_borrowed":	[]}, "R004":	{"name":	"Shira",	"books_borrowed":	[]}, }
 loans = {}
 
 # ========== LOAN FUNCTIONS ==========
