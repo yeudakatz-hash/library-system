@@ -34,5 +34,6 @@ loans = {
 # TODO: get_overdue_loans()
 
 # ========== MAIN ==========
-if __name__ == "__main__":
-    print("Library System Ready")
+if	__name__	==	"__main__":
+    print("Library	System	Ready")
+    print("Data	loaded:	5	books,	4	readers")
